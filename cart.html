@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHOPLANE - Cart</title>
+  <!-- <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.css" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="cart.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="./index.html" class="logo">
+        <h4>SHOP<span>LANE</span></h4>
+      </a>
+      <ul class="navlist">
+        <li class="navlink active-nav">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="navlink">
+          <a href="./index.html#cloths">clothings</a>
+        </li>
+        <li class="navlink">
+          <a href="./index.html##accessory">accessories</a>
+        </li>
+      </ul>
+      <div class="nav-icons">
+        <i class="fa fa-search"></i>
+        <div class="cart" id="cart">
+          <a href="./cart.html"> <i class="fa fa-shopping-cart"></i><sup class="cart-count">0</sup>
+          </a>
+        </div>
+        <i class="fa fa-user-circle"></i>
+        <div class="hamburger">
+          <span class="lines"></span>
+          <span class="lines"></span>
+          <span class="lines"></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- =============Empty cart========== -->
+  <section class="empty-cart">
+    <img src="./image/empty-cart.gif" alt="gif">
+    <h3>Your shopping cart is empty</h3>
+    <a href="./index.html#products" class="btn">Start Shopping</a>
+  </section>
+  <section class="cart-section">
+    <h2>Checkout</h2>
+
+    <h4>Total Items: <span id="total-items"></span></h4>
+    <section class="cart-items">
+      <section class="wrapper">
+        <ul id="items-box">
+          
+        </ul>
+      </section>
+      <section class="total-amount">
+        <h4>Total Amount</h4>
+        <p>Total Amount: Rs <span id="sum-amount"></span></p>
+        <a href="orderconfirm.html" class="order">
+          <button class="btn">place Order</button></a>
+      </section>
+    </section>
+  </section>
+  <!-- ===============footer================ -->
+
+  <footer>
+    <section class="footer">
+      <section class="store">
+        <h2 class="footer-heading">ONLINE STORE</h2>
+        <p class="footer-links"><a href="index.html#cloths">MEN CLOTHING</a></p>
+        <p class="footer-links"><a href="index.html#cloths">WOMEN CLOTHING</a></p>
+        <p class="footer-links"><a href="index.html#accessory">MEN ACCESSORIES</a></p>
+        <p class="footer-links"><a href="index.html#accessory">WOMEN ACCESSORIES</a></p>
+      </section>
+      <section class="help-links">
+        <h2 class="footer-heading">HELPFUL LINKS</h2>
+        <p class="footer-links"><a href="index.html">HOME</a></p>
+        <p class="footer-links"><a href="#">ABOUT</a></p>
+        <p class="footer-links"><a href="#">CONTACT</a></p>
+      </section>
+      <section class="partners">
+        <h2 class="footer-heading">PATNERS</h2>
+        <p class="footer-links"><a href="#">ZARA</a></p>
+        <p class="footer-links"><a href="#">PANTALOONS</a></p>
+        <p class="footer-links"><a href="#">LEVIS</a></p>
+        <p class="footer-links"><a href="#">UCB</a></p>
+        <p class="footer-links"><a href="#">+ MANY MORE</a></p>
+      </section>
+      <section class="address">
+        <h2 class="footer-heading">ADDRESS</h2>
+        <p class="footer-links"><a href="#">BUILDING 101</a></p>
+        <p class="footer-links"><a href="#">CENTRAL AVENUE</a></p>
+        <p class="footer-links"><a href="#">LA - 902722</a></p>
+        <p class="footer-links"><a href="#">UNITED STATES</a></p>
+      </section>
+    </section>
+    <hr />
+    <p class="copyright">
+      Copyright © 2023 SHOPLANE. All rights reserved. Developed by
+      <span
+        ><a href="https://github.com/lakinaik/" target="_blank"
+          >Lucky</a
+        ></span
+      >.
+    </p>
+  </footer>
+  <script src="./cart.js"></script>
+</body>
+
+</html>

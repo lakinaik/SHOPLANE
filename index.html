@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOPLANE-A Place For Shopping</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="./index.html" class="logo">
+          <h4>SHOP<span>LANE</span></h4>
+        </a>
+        <ul class="navlist">
+          <li class="navlink active-nav">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="navlink">
+            <a href="#cloths">clothings</a>
+          </li>
+          <li class="navlink">
+            <a href="#accessory">accessories</a>
+          </li>
+        </ul>
+        <div class="nav-icons">
+          <i class="fa fa-search"></i>
+          <div class="cart" id="cart">
+            <a href="./cart.html">
+              <i class="fa fa-shopping-cart"></i><sup class="cart-count">0</sup>
+            </a>
+          </div>
+          <i class="fa fa-user-circle"></i>
+          <div class="hamburger">
+            <span class="lines"></span>
+            <span class="lines"></span>
+            <span class="lines"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- ====================slider section=============== -->
+      <section class="image-slider">
+        <div class="image-box">
+          <img src="https://shoplane.netlify.app/img/img1.png" width="100%" />
+        </div>
+        <div class="image-box">
+          <img src="https://shoplane.netlify.app/img/img2.png" width="100%" />
+        </div>
+        <div class="image-box">
+          <img src="https://shoplane.netlify.app/img/img3.png" width="100%" />
+        </div>
+        <div class="image-box">
+          <img src="https://shoplane.netlify.app/img/img4.png" width="100%" />
+        </div>
+      </section>
+      <!-- ==============Service section============== -->
+      <section class="service">
+        <div class="service-box"><img src="./image/icon1.png" alt="img" /></div>
+        <div class="service-box"><img src="./image/icon2.png" alt="img" /></div>
+        <div class="service-box"><img src="./image/icon3.png" alt="img" /></div>
+        <div class="service-box"><img src="./image/icon4.png" alt="img" /></div>
+      </section>
+      <!-- ============Product Section============= -->
+      <div id="products">
+        <section class="cloths" id="cloths">
+          <h2>Clothing for Men and Women</h2>
+          <div class="loader">
+            <img src="./image/loader.gif" alt="loader">
+          </div>
+        </section>
+        <section class="accessory" id="accessory">
+          <h2>Accessories for Men and Women</h2>
+        </section>
+      </div>
+    </main>
+
+    <!-- ===============footer================ -->
+    <footer>
+      <section class="footer">
+        <section class="store">
+          <h2 class="footer-heading">ONLINE STORE</h2>
+          <p class="footer-links"><a href="index.html#cloths">MEN CLOTHING</a></p>
+          <p class="footer-links"><a href="index.html#cloths">WOMEN CLOTHING</a></p>
+          <p class="footer-links"><a href="index.html#accessory">MEN ACCESSORIES</a></p>
+          <p class="footer-links"><a href="index.html#accessory">WOMEN ACCESSORIES</a></p>
+        </section>
+        <section class="help-links">
+          <h2 class="footer-heading">HELPFUL LINKS</h2>
+          <p class="footer-links"><a href="index.html">HOME</a></p>
+          <p class="footer-links"><a href="#">ABOUT</a></p>
+          <p class="footer-links"><a href="#">CONTACT</a></p>
+        </section>
+        <section class="partners">
+          <h2 class="footer-heading">PATNERS</h2>
+          <p class="footer-links"><a href="#">ZARA</a></p>
+          <p class="footer-links"><a href="#">PANTALOONS</a></p>
+          <p class="footer-links"><a href="#">LEVIS</a></p>
+          <p class="footer-links"><a href="#">UCB</a></p>
+          <p class="footer-links"><a href="#">+ MANY MORE</a></p>
+        </section>
+        <section class="address">
+          <h2 class="footer-heading">ADDRESS</h2>
+          <p class="footer-links"><a href="#">BUILDING 101</a></p>
+          <p class="footer-links"><a href="#">CENTRAL AVENUE</a></p>
+          <p class="footer-links"><a href="#">LA - 902722</a></p>
+          <p class="footer-links"><a href="#">UNITED STATES</a></p>
+        </section>
+      </section>
+      <hr />
+      <p class="copyright">
+        Copyright © 2023 SHOPLANE. All rights reserved. Developed by
+        <span
+          ><a href="https://github.com/lakinaik/" target="_blank"
+            >Lucky</a
+          ></span
+        >.
+      </p>
+    </footer>
+    <script src="./jquery-3.7.0.min.js"></script>
+    <script src="./slick-1.8.1/slick/slick.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

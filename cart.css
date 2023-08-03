@@ -1,0 +1,97 @@
+.empty-cart,
+.cart-section{
+    min-height: 70vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px;
+}
+.empty-cart img{
+    width: 240px;
+}
+.empty-cart h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #4c4c69;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px 0;
+}
+.empty-cart .btn{
+    text-decoration: none;
+    border: 2px solid #06aa50;
+    color: #06aa50;
+    padding: 6px 10px;
+    background-color: white;
+    margin: 10px 0;
+    transition: all .4s ease;
+}
+.empty-cart .btn:hover{
+    background-color: #06aa50;
+    color: white;
+}
+.cart-section{
+    padding: 20px;
+}
+.cart-section h2{
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+.cart-section h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.cart-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.cart-item{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 4px 4px rgba(110, 108, 108, 0.5);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.cart-item .product-img{
+    width: 100px;
+    margin-right: 10px;
+}
+.cart-item .product-img img{
+    width: 100%;
+}
+.btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    background-color: rgb(0, 150, 136);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 10px;
+    padding: 14px 18px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+.btn:hover{
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: #06aa50;
+}
+.total-amount{
+    max-height: 180px;
+    padding: 15px;
+    background-color: white;
+    box-shadow:  0 0 2px 2px rgba(110, 108, 108, 0.5);
+    
+}
+@media screen and (max-width:920px) {
+    .total-amount{
+        width: 100%;
+    }
+}
